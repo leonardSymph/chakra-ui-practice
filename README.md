@@ -3,7 +3,8 @@
 ## Resources
 
 - [ChakraUI](https://chakra-ui.com/docs/getting-started)
-- [Atomic-Design](https://www.youtube.com/watch?v=Yi-A20x2dcA)
+- [Atomic-Design-Video](https://www.youtube.com/watch?v=Yi-A20x2dcA)
+- [Atomic-Design-Article](https://bradfrost.com/blog/post/atomic-web-design/)
 
 
 <!-- # Getting Started with Create React App

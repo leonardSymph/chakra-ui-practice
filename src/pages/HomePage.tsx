@@ -1,9 +1,12 @@
 import React from 'react'
+import ChakraUiLoginSample from '../components/templates/ChakraUiLoginSample'
+
 
 const HomePage = () => {
+
   return (
-    <div>
-      
+    <div >
+      <ChakraUiLoginSample />
     </div>
   )
 }

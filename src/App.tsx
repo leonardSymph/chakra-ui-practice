@@ -1,19 +1,12 @@
-import ApiClient from "./api/ApiClient";
+// import HomePage from "./pages/HomePage";
+// import BoxTraining from "./components/training/BoxTraining";
+import ButtonComponent from "./components/atoms/ButtonComponent";
 
 function App() {
-  const getData =async ()=>{
-    const data = await ApiClient.get('users', {
-      params: {
-        ID: 'test-params-id'
-      },
-    })
-    console.log(data)
-  }
 
   return (
-    <div className="App">
-      <h1>Hello world</h1>
-      <button onClick={getData}>try get</button>
+    <div>
+      <ButtonComponent onButtonName={'Click Me'}/>
     </div>
   );
 }
