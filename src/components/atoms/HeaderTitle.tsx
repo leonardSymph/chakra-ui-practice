@@ -1,10 +1,14 @@
 import React from 'react'
+import { Text } from '@chakra-ui/react'
 
-const HeaderTitle = (): JSX.Element => {
+const HeaderTitle = (params: { fontSize: string | number, onTextInput : string }): JSX.Element => {
+
+  const {fontSize, onTextInput} = params;
+
   return (
-    <div>
-      
-    </div>
+    <>
+      <Text fontSize={fontSize}>{onTextInput}</Text>
+    </>
   )
 }
 

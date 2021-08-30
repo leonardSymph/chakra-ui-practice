@@ -1,11 +1,13 @@
 import React from 'react'
 import { Button } from '@chakra-ui/react'
 
-const ButtonComponent = (params: { onButtonName: string }) => {
-  const { onButtonName } = params
+const ButtonComponent = (props: {onClick : ()=>void,children: React.ReactNode}) : JSX.Element => {
+
+  const {onClick} = props;
+
   return (
-    <>
       <Button 
+        onClick={onClick}
         bg='gray.200'
         color = 'gray.700'
         _hover={{
@@ -16,9 +18,8 @@ const ButtonComponent = (params: { onButtonName: string }) => {
           boxShadow: 'none'
         }}
       >
-        {onButtonName}
+        {props.children}
       </Button>
-    </>
   )
 }
 
