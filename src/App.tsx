@@ -14,13 +14,15 @@
 // import ContainerLayout from "./components/training/layout/ContainerLayout";
 // import FlexLayout from "./components/training/layout/FlexLayout";
 // import GridLayout from "./components/training/layout/GridLayout";
-import SimpleGridLayout from "./components/training/layout/SimpleGridLayout";
+// import SimpleGridLayout from "./components/training/layout/SimpleGridLayout";
+// import StackLayout from "./components/training/layout/StackLayout";
+import WrapLayout from "./components/training/layout/WrapLayout";
 
 function App() {
 
   return (
     <div style={{overflow: 'auto', height:'100vh'}}>
-      <SimpleGridLayout/>
+      <WrapLayout/>
     </div>
   );
 }
